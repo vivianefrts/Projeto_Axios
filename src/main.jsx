@@ -6,7 +6,10 @@ import {createBrowserRouter, RouterProvider, Route} from 'react-router-dom'
 
 //seção das páginas
 import Home from './routes/Home'
-import NewPost from './routes/NewPost'
+import Equipe from './routes/Equipe'
+import TRANSformacao from './routes/TRANSformacao'
+import Servicos from './routes/Servicos'
+import Agendamento from './routes/Agendamento'
 
 import './index.css'
 
@@ -19,8 +22,20 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "/new",
-        element: <NewPost />
+        path: "/equipe",
+        element: <Equipe />
+      },
+      {
+        path: "/transformacao",
+        element: <TRANSformacao />
+      },
+      {
+        path: "/servicos",
+        element: <Servicos />
+      },
+      {
+        path: "/agendamento",
+        element: <Agendamento />
       }
     ]
   }
