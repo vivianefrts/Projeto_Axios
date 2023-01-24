@@ -1,5 +1,7 @@
 import axios from "axios";
 
+import blogFetch from "../axios/config";
+
 import {useState, useEffect} from 'react';
 
 import {Link} from 'react-router-dom';
@@ -11,7 +13,7 @@ const Home = () => {
   const [posts, setPosts] = useState([])
   const getPosts = async() => {
     try {
-      const response = await axios.get('https://fake-server-projetoindividual.onrender.com/Produtos');
+      const response = await blogFetch.get('');
       const data = response.data;
 
       setPosts(data);
@@ -31,7 +33,7 @@ const Home = () => {
           <div className="post" key={post.id}>
             <h2>{post.Categoria}</h2>
             <p>{post.Preço}</p>
-            <Link to = {`/posts/${post.id}`}>Ler mais</Link>
+            <Link to = {`/posts/${post.id}`} className="btn">Ler mais</Link>
           </div>
         ))
       )}

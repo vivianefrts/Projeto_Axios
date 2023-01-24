@@ -16,7 +16,7 @@ const Navbar = () => {
                 <Link to = {'/transformacao'}>TRANSformação</Link>
             </li>
             <li>
-                <Link to  = {'/servicos'}>Serviços</Link>
+                <Link to  = {'/servicos'}>Serviços e Profutos</Link>
             </li>
             <li>
                 <Link to = {'/agendamento'}>Agendamento</Link>
