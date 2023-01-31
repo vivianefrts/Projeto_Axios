@@ -2,4 +2,19 @@
   max-width: 1000px;
   margin: 2rem auto;
   padding: 2rem;
+ 
+}
+
+form{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+input, select, textarea, .radios, .checks{
+  margin-bottom: 20px;
+}
+
+.radios label, .checks label{
+   margin-right: 20px;
 }
