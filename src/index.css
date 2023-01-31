@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   font-family: "Belleza";
+  box-sizing: border-box;
 }
 :root{
   --corFundoClaro: rgb(255, 255, 255);
