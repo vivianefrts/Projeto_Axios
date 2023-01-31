@@ -39,5 +39,6 @@ const [products, setProducts] = useState([])
       </div>
     </div>
   )
+
 }
 export default Produtos
