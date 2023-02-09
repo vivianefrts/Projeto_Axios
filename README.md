@@ -28,10 +28,10 @@ cadastrados.
 ## :books: Documentação
 
 ## Colaboradores 
-* Bruno
-* Emanuella
-* Felipe 
-* Marcos
+* Bruno  :bearded_person:🏻 
+* Emanuella  👩‍💼
+* Felipe  🧔💼
+* Marcos  👨‍💼
 * Viviane :haircut:
 
 ## :open_file_folder: Acesse o arquivo
