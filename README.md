@@ -26,6 +26,13 @@ cadastros ou produtos;
 cadastrados.
 
 ## :books: Documentação
+> React 
+
+> Node Js
+
+> HTML 5
+
+> CSS
 
 ## Colaboradores 
 * Bruno  :bearded_person:🏻 
