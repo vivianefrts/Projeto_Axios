@@ -9,7 +9,6 @@ import {Link} from 'react-router-dom';
 import "./Home.css"
 
 const Home = () => {
-
   const [posts, setPosts] = useState([])
   const getPosts = async() => {
     try {
@@ -38,12 +37,5 @@ const Home = () => {
           </div>
         ))
       )}
-      <div className='container-carousel'>
-        <div>
-
-        </div>
-      </div>
-  </main>;
-  
 }
 export default Home;

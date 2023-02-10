@@ -1,10 +1,40 @@
 import React from 'react'
 
+import blogFetch from "../axios/config";
+
+import {useState, useEffect} from 'react';
+
 const Servicos = () => {
+  const [services, setServices] = useState([])
+  const getServices = async() => {
+    try {
+      const response = await blogFetch.get('/Servicos');
+      const data = response.data;
+
+      setServices(data);
+    } catch (error) {
+      console.log(error)
+    }
+  } 
+
+  useEffect(() => {
+    getServices()
+  }, [])
+
+
   return (
     <div>
-      <h2>Serviços e Produtos</h2>
-    </div>
+    <h1>Serviços</h1>
+    {services.length === 0 ? (<p>Carregando...</p>) : (
+      services.map((services) => (
+        <div className="services-card" key={services.id}>
+          <h2>{services.tipo}</h2>
+          <h4>Descrição: {services.descricao}</h4>
+          <p>Preço: R${services.preco},00</p>
+        </div>
+      ))
+    )}
+  </div>
   )
 }
 
