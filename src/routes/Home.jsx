@@ -35,7 +35,10 @@ const Home = () => {
             <p>R${(post.preco *1).toFixed(2)}</p>
             <Link to = {`/posts/${post.id}`} className="btn">Ler mais</Link>
           </div>
+          
         ))
-      )}
-}
+      )
+     
+      } </main>;
+    }
 export default Home;
