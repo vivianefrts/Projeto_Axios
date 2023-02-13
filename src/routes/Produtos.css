@@ -35,6 +35,22 @@
     overflow: hidden;
 }*/
 
+.products-card{
+    justify-content: space-between;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+   
+}
+
 .products-card h2{
     text-align: center;
+}
+
+.products-card img{
+    max-width: 200px;
 }

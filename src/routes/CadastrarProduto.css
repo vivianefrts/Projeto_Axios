@@ -1,0 +1,60 @@
+.novo-produto h2{
+    text-align: center;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container-input-tipo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.container-input-tipo label{
+    margin-bottom: 0.3rem;
+}
+
+.container-input-imagem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.container-input-imagem label{
+    margin-bottom: 0.3rem;
+}
+
+.container-input-descricao{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.container-input-descricao label{
+    margin-bottom: 0.3rem;
+}
+
+.container-input-valor{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.container-input-valor label{
+    margin-bottom: 0.3rem;
+}
+
+form input, form textarea{
+    padding: 0.5rem;
+    border-radius: 5px;
+    
+}
+
+.botao-cadastrar:hover{
+    background-color: black;
+    color: white;
+}
