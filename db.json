@@ -1,0 +1,465 @@
+{
+    "produtos": [
+        {
+            "id":1,
+            "tipo":"Shampoo",
+            "descricao": "Tem a funcao de limpar os fios, tirando o excesso de sujeira e fazendo com que o couro cabeludo e comprimento sejam limpos",
+            "preco":60,
+            "imagem": "https://raw.githubusercontent.com/brunonavarone/Projeto_Axios/main/Imagens%20dos%20produtos%20Tech%20hair/TechHair_Shampoo2.jpg",
+            "categoria_id":1
+        },
+        {
+            "id":2,
+            "tipo":"Condicionador",
+            "descricao": "Depois da limpeza o condicionador tem como funcao fechar as cuticulas dos fio que foram abertas pelo o uso do shampoo",
+            "preco":40,
+            "imagem": "https://raw.githubusercontent.com/brunonavarone/Projeto_Axios/main/Imagens%20dos%20produtos%20Tech%20hair/TechHair_Condicionador.jpg",
+            "categoria_id":1
+        },
+        {
+            "id":3,
+            "tipo":"Creme de hidratacao",
+            "descricao": "De forma objetiva ele repoe a agua da fibra capilar, tendo como resultado um cabelo muito mais hidratado , macio e com menos frizz",
+            "preco":70,
+            "imagem": "https://raw.githubusercontent.com/brunonavarone/Projeto_Axios/main/Imagens%20dos%20produtos%20Tech%20hair/TechHair_M%C3%A1scara_de_Hidrata%C3%A7%C3%A3o.jpg",
+            "categoria_id":1
+        },
+        {
+            "id":4,
+            "tipo":"Creme de nutricao",
+            "descricao": "Tem como objetivo devolver a oleosidade aos fios e e fundamental para cabelos ressecados e indisciplinado, pois esse tratamento deixa os cabelos saudaveis, disciplinados e brilhosos ",
+            "preco":75,
+            "imagem": "https://raw.githubusercontent.com/brunonavarone/Projeto_Axios/main/Imagens%20dos%20produtos%20Tech%20hair/TechHair_M%C3%A1scara_de_Nutri%C3%A7%C3%A3o.jpg",
+            "categoria_id":1
+        },
+        {
+            "id":5,
+            "tipo":"Creme de reconstrucao",
+            "descricao": "A recontrucao age fortalecendo os fios danificados recomendado para cabelos fracos e quebradicos  ",
+            "preco":85,
+            "imagem": "https://raw.githubusercontent.com/brunonavarone/Projeto_Axios/main/Imagens%20dos%20produtos%20Tech%20hair/TechHair_M%C3%A1scara_de_Reconstru%C3%A7%C3%A3o.jpg",
+            "categoria_id":1
+        },
+        {
+            "id":6,
+            "tipo":"Reparador de pontas",
+            "descricao": "Ele serve como um finalizador hidratando, nutrindo, desembaracando e selando a fibra capilar",
+            "preco":28,
+            "imagem": "https://raw.githubusercontent.com/brunonavarone/Projeto_Axios/main/Imagens%20dos%20produtos%20Tech%20hair/TechHair_Reparador_de_Pontas.jpg",
+            "categoria_id":1
+        },
+        {
+            "id":7,
+            "tipo":"leave in",
+            "descricao": "Produto que ajuda ao pentear, protege dos sol, dar brilho, diminui frizz e reduz as pontas duplas",
+            "preco":30,
+            "imagem": "https://raw.githubusercontent.com/brunonavarone/Projeto_Axios/main/Imagens%20dos%20produtos%20Tech%20hair/TechHair_LeaveIn.jpg",
+            "categoria_id":1
+        },
+        {
+            "id":8,
+            "tipo":"Protetor termico",
+            "descricao": "Tem como finalidade proteger os fios do calor do secador, chapinha e babyliss",
+            "preco":43,
+            "imagem": "https://raw.githubusercontent.com/brunonavarone/Projeto_Axios/main/Imagens%20dos%20produtos%20Tech%20hair/TechHair_ProtetorT%C3%A9rmico.jpg",
+            "categoria_id":1
+        },
+        {
+            "id":9,
+            "tipo":"Pre Poo",
+            "descricao": "Produto pra ser utilizado antes de lavar os cabelos para que a acao do shampoo nao agrida os fios",
+            "preco":97,
+            "imagem":"https://raw.githubusercontent.com/brunonavarone/Projeto_Axios/main/Imagens%20dos%20produtos%20Tech%20hair/TechHair_Pr%C3%A9-Poo.jpg",
+            "categoria_id":1
+        }
+
+
+
+    ],
+
+    "servicos": [
+        {
+            "id":1,
+            "tipo":"Penteados de madrinha",
+            "descricao": "Preparacao com escova, aplicacao de produtos,finalizacao com a montagem do penteado",
+            "preco": 250,
+            "tamanhoDoCabelo": ["curto","medio", "longo"],
+            "categoria_id": 2   
+        },
+        {
+            "id":2,
+            "tipo":"penteados de noiva",
+            "descricao": "preparacao com escova,aplicacao de produtos, babyliss, montagem do penteado com acessorios e finalizacao com a colocacao do veu",
+            "preco": 500,
+            "tamanhoDoCabelo": ["curto","medio", "longo"],
+            "categoria_id": 2
+        },
+        {
+            "id":3,
+            "tipo":"penteados de daminha",
+            "descricao": "preparacao do cabelo, aplicacao de produtos, babyliss, finalizacao com a montagem do penteado com acessorios",
+            "preco":150,
+            "tamanhoDoCabelo": ["curto","medio", "longo"],
+            "categoria_id": 2
+        },
+        {
+            "id":4,
+            "tipo":"corte chanel",
+            "descricao": "E um corte que nunca sai de moda, geralmente ele tem os fios completamente alinhados e retinhos na base , mas dependendo da estrutura do cabelo ele pode ter leves camadas",
+            "preco":50,
+            "tamanhoDoCabelo":["curto","medio","longo"],
+            "categoria_id":3   
+        },
+        {
+            "id":5,
+            "tipo":"corte chanel de bico",
+            "descricao": "E basicamento o mesmo processo so que a parte da frente vai em direcao a linha da boca, a ponta do queixo ou ate um pouco abaixo dos ombros",
+            "preco":50,
+            "tamanhoDoCabelo":[],
+            "categoria_id":3    
+        },
+        {
+            "id":6,
+            "tipo":"corte long bob",
+            "descricao": "E um corte que pode variar entre curto e medio e semelhante a um chanel so que com a parte da frente mais comprida",
+            "preco":50,
+            "tamanhoDoCabelo":[],
+            "categoria_id":3  
+        },
+        {
+            "id":7,
+            "tipo":"corte repicado",
+            "descricao": "Esse corte pode ser realizado em qualquer tamanho de cabelo com as camadas seguindo um angulo de 90 graus",
+            "preco":50,
+            "tamanhoDoCabelo":[],
+            "categoria_id":3  
+        },
+        {
+            "id":8,
+            "tipo":"corte pixie cut",
+            "descricao": "E um corte bem curtinho também conhecido com joaozinho",
+            "preco":50,
+            "tamanhoDoCabelo":[],
+            "categoria_id":3    
+        },
+        {
+            "id":9,
+            "tipo":"corte under cut",
+            "descricao": "E aquele corte com um estilo bem diferente em que nucas e laterais da cabeça sao raspadas a 0 graus ",
+            "preco":50,
+            "tamanhoDoCabelo":[],
+            "categoria_id":3  
+        },
+        {
+            "id":10,
+            "tipo":"corte em u",
+            "descricao": "Como o nome ja diz o corte e realizado em formato de u as pontas sao arredondadas sem perder o comprimento do cabelo",
+            "preco":50,
+            "tamanhoDoCabelo":[],
+            "categoria_id":3    
+        },
+        {
+            "id":11,
+            "tipo":"corte em v",
+            "descricao": "E basicamento parecido com o corte u só que traz um resultado mais marcante, pois seu acabamento e bem anguloso e fomra a letra v quando visto de costa, com as laterais bem mais curtas e o centro mais comprido e definido",
+            "preco":50,
+            "tamanhoDoCabelo":[],
+            "categoria_id":3  
+        },
+        {
+            "id":12,
+            "tipo":"maquiagem simples",
+            "descricao": "preparacao de pele antes da aplicacao da base, contorno,po, blush, sombras nos olhos, batom",
+            "preco":60,
+            "tamanhoDoCabelo":[],
+            "categoria_id":4
+        },
+        {
+            "id":13,
+            "tipo":"maquiagem completa",
+            "descricao": "preparacao de pele antes da aplicacao da base, contorno,po, blush, sombras nos olhos,pigmentos, glitter,cilios postico,batom",
+            "preco":90,
+            "tamanhoDoCabelo":[],
+            "categoria_id":4
+        }, 
+        {
+            "id":14,
+            "tipo":"maquiagem para crianca",
+            "descricao": "aplicacao do protetor solar, blush, sombras nos olhos,batom",
+            "preco":40,
+            "tamanhoDoCabelo":[],
+            "categoria_id":4
+        },
+        {
+            "id":15,
+            "tipo":"manicure",
+            "descricao": "",
+            "preco":30,
+            "tamanhoDoCabelo":[],
+            "categoria_id":5
+        },  
+        {
+            "id":16,
+            "tipo":"pedicure",
+            "descricao": "",
+            "preco":40,
+            "tamanhoDoCabelo":[],
+            "categoria_id":5
+        },
+        {
+            "id":17,
+            "tipo":"designer de sobrancelha",
+            "descricao": "retirar os fios",
+            "preco":18,
+            "tamanhoDoCabelo":[],
+            "categoria_id":6
+        }, 
+        {
+            "id":18,
+            "tipo":"designer de sobrancelha com henna",
+            "descricao": "retirar os fios e aplicar a henna",
+            "preco":22,
+            "tamanhoDoCabelo":[],
+            "categoria_id":6
+        },
+        {
+            "id":19,
+            "tipo":"aplicacao de cilios",
+            "descricao": "",
+            "preco":55,
+            "tamanhoDoCabelo":[],
+            "categoria_id":6
+        }               
+
+    ], 
+    "procedimentos":[
+        {
+            "id":1,
+            "tipo":"coloracao",
+            "descricao":"Destribuicao de produto pela raiz e pontas atingindo a cor desejada",
+            "preco":80,
+            "tamanhoDoCabelo":["curto","medio", "longo"],
+            "categoria_id":7 
+        },
+        {
+            "id":2,
+            "tipo":"retoque de raiz",
+            "descricao":"So aplicar produto na parte crescida ou onde se encontra os fios brancos",
+            "preco":80,
+            "tamanhoDoCabelo":["curto","medio", "longo"],
+            "categoria_id":7 
+        },
+        {
+            "id": 3,
+            "tipo":"luzes",
+            "descricao":"E um procedimento que clareia os fios e que pode ser feito por todo cabelo ou em partes dependendo da tecnica utilizada",
+            "preco":280,
+            "tamanhoDoCabelo":["curto","medio", "longo"],
+            "categoria_id":7
+        },
+        {
+            "id": 4,
+            "tipo":"descoloracao global",
+            "descricao":"Tecnica que tem como objetivo descolorir todo o cabelo sem deixar nenhuma mecha de fora tendo como resultado na maioria dos casos um platinado ",
+            "preco":230,
+            "tamanhoDoCabelo":["curto","medio", "longo"],
+            "categoria_id":7
+        },
+        {
+            "id":5,
+            "tipo": "Progressiva com formol",
+            "descricao": "aplicacao do produto, deixar o tempo de acao, enxaguar, escovar e pranchar",
+            "preco": 560,
+            "tamanhoDoCabelo":["curto","medio", "longo"],
+            "categoria_id":7
+        },
+        {
+            "id":6,
+            "tipo": "Progressiva sem formol",
+            "descricao":"aplicacao do produto, deixar o tempo de acao, enxaguar retirando 80% do produto, escovar e pranchar no minimo 15 vezes",
+            "preco": 450,
+            "tamanhoDoCabelo":["curto","medio", "longo"],
+            "categoria_id":7
+        },
+        {
+            "id":7,
+            "tipo": "realinhamento com Botox",
+            "descricao":"aplicacao do produto, deixar o tempo de acao, enxaguar retirando 100% do produto, escovar e pranchar",
+            "preco":400,
+            "tamanhoDoCabelo":["curto","medio", "longo"],
+            "categoria_id":7
+        }
+    ],
+
+
+    "usuarios": [
+        {
+            "id": 1,
+            "tipoDeUsuario": "Funcionário",
+            "cargo": "Socio da empresa(CEO)",
+            "nome": "Bruno",
+            "telefone": "(21) 00000-2711",
+            "categoria_id":8
+        }, 
+
+        {
+            "id": 2,
+            "tipoDeUsuário": "Funcionário",
+            "cargo": "Sócio da empresa(admistradora)",
+            "nome": "Emanuella",
+            "telefone": "(21) 02424-0200",
+            "categoria_id":8
+        },
+
+        {
+            "id": 3,
+            "tipoDeUsuário": "Funcionário",
+            "cargo": "Socio da empresa(vice-presidente)",
+            "nome": "Marcos",
+            "telefone": "(21) 90000-1100",
+            "categoria_id":8
+        },
+
+        {
+            "id": 4,
+            "tipoDeUsuário": "Funcionário",
+            "cargo": "Sócio da empresa(fornecedor)",
+            "nome": "Felipe",
+            "telefone": "(21) 00000-1111",
+            "categoria_id":8
+        },
+
+        {
+            "id": 5,
+            "tipoDeUsuário": "Funcionário",
+            "cargo": "Sócio da empresa(hairstyle)",
+            "nome": "Viviane",
+            "telefone": "(21) 00000-1421",
+            "categoria_id":8
+        }
+    ], 
+
+    "clientes":[
+        {
+            "id":1,
+            "nome": "Elenir",
+            "telefone":986748012,
+            "email":"elenirsarandao@gmail.com",
+            "endereco":"rua Mikrokosmos",
+            "categoria_id":9
+        },
+        {
+            "id":2,
+            "nome": "Alexandra",
+            "telefone":985487617,
+            "email":"xandamoreira@gmail.com",
+            "endereco":"rua moon",
+            "categoria_id":9
+        },
+        {
+            "id":3,
+            "nome": "Claudia",
+            "telefone": 994856371,
+            "email": "claudiabatista@gmail.com",
+            "endereco": "rua dynamite",
+            "categoria_id":9
+        },
+        {
+            "id":4,
+            "nome": "Carmen",
+            "telefone": 994855314,
+            "email": "carmenclem@gmail.com",
+            "endereco": "rua airplane",
+            "categoria_id":9
+        },
+        {
+            "id":5,
+            "nome": "Veronica",
+            "telefone":987648511,
+            "email":"veronicagiunti@gmail.com",
+            "endereco":"rua friends",
+            "categoria_id":9
+        },
+        {
+            "id":6,
+            "nome": "Mariana",
+            "telefone":993778010,
+            "email":"mari.sarandao@gmail.com",
+            "endereco":"rua stay gold",
+            "categoria_id":9
+        },
+        {
+            "id":7,
+            "nome": "Luana",
+            "telefone":986195024,
+            "email":"Lusantana@gmail.com",
+            "endereco":"rua paradise",
+            "categoria_id":9
+        },
+        {
+            "id":8,
+            "nome": "Heloisa",
+            "telefone":965185022,
+            "email":"hello.26@gmail.com",
+            "endereco":"rua life goes on",
+            "categoria_id":9
+        },
+        {
+            "id":9,
+            "nome": "Renata",
+            "telefone":994284021,
+            "email":"renatabtst@gmail.com",
+            "endereco":"rua spring day",
+            "categoria_id":9
+        },
+        {
+            "id":10,
+            "nome": "Izalene",
+            "telefone":985187040,
+            "email":"iza.lene@gmail.com",
+            "endereco":"rua yet to come",
+            "categoria_id":9
+        }
+    ],
+
+    "categorias": [
+        {
+        "id": 1,
+        "nome": "Produtos"
+        },
+        {
+        "id": 2,
+        "nome": "Penteados"
+        },
+        {
+        "id": 3,
+        "nome": "Cortes"
+        },
+        {
+        "id": 4,
+        "nome": "Maquiagem"
+        },
+        {
+        "id": 5,
+        "nome": "Unhas"
+        },
+        {
+        "id": 6,
+        "nome": "SobrancelhaCilios"
+        },
+        {
+        "id": 7,
+        "nome": "Coloracao"
+        },
+        {
+        "id": 8,
+        "nome": "Funcionarios"
+        },
+        {
+        "id": 9,
+        "nome": "Clientes"
+        }
+        
+    ]
+
+}

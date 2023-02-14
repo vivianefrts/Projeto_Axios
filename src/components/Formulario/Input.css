@@ -1,0 +1,17 @@
+.container_input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    width: 50%;
+}
+
+.container_input label{
+    margin-bottom: .6em;
+    font-weight: bold;
+}
+
+.container_input input{
+    padding: .7em;
+    border-radius: 0px;
+}
+

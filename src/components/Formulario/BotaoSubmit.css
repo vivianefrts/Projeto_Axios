@@ -1,0 +1,14 @@
+.botao_Submit{
+    background-color: #222;
+    color: #FFF;
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botao_Submit:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}

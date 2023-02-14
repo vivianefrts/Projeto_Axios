@@ -10,7 +10,7 @@ import {useState, useEffect} from 'react';
 
 
 const Produtos = () => {
-const [products, setProducts] = useState([])
+  const [products, setProducts] = useState([])
   const getProducts = async() => {
     try {
       const response = await blogFetch.get('/Produtos');
@@ -20,10 +20,10 @@ const [products, setProducts] = useState([])
     } catch (error) {
       console.log(error)
     }
-  } 
+  }
 
   useEffect(() => {
-    getProducts()
+    getProducts();
   }, [])
 
   return (
@@ -38,6 +38,9 @@ const [products, setProducts] = useState([])
                     <img src={products.imagem}></img>
                     <h4>Descrição: {products.descricao}</h4>
                     <p>Preço: R${products.preco},00</p>
+                    <div className='verbos-container'>
+                  
+                    </div>
                 </div>
                 </Tilt>
         ))
