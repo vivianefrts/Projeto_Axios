@@ -1,0 +1,22 @@
+.servicos-container-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.container-cartoes-servicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100vw;
+}
+
+.cartoes-servicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   text-align: justify;
+}
