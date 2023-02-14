@@ -1,22 +1,17 @@
 import React from 'react'
-
 import {useState, useEffect} from 'react';
-
-/*import {useHistory} from 'react-router-dom';*/
-
 import blogFetch from "../axios/config";
-
 import Input from './Formulario/Input';
-
 import BotaoSubmit from './Formulario/BotaoSubmit';
 
 
-const FormCadastro = () => {
+const FormCadastro = ({handleSubmit, produtosData}) => {
+    const [produtos, setProdutos] = useState(produtosData || {})
 
-    /*const history = useHistory();*/
 
     function criandoProduto(produto){
-   
+    
+    console.log("Cadastrou")
      fetch("https://fake-server-projetoindividual.onrender.com/produtos",
      {
        method: 'POST',
@@ -34,14 +29,24 @@ const FormCadastro = () => {
    
     }
 
+    const submit = (e) => {
+      e.preventDefault()
+      handleSubmit(produtos)
+    }
+
+    function handleChange(e){
+      setProdutos({...produtos, [e.target.name]: [e.target.value]})
+      console.log(produtos)
+    }
   return (
     <>
-    <Input type="text" text="Tipo de produto: " name="tipo" placeholder="Insira o tipo de produto"/>
-    <Input type="text" text="URL da imagem: " name="url_Imagem" placeholder="Insira a URL da imagem"/>
-    <Input type="text" text="Descrião do produto: " name="descricao" placeholder="Insira da descricao do produto"/>
-    <Input type="price" text="Valor do produto" name="preco" placeholder="Insira o valor do produto"/>
+    <Input type="text" text="Tipo de produto: " name="tipo" placeholder="Insira o tipo de produto" handleOnChange={handleChange}/>
+    <Input type="text" text="URL da imagem: " name="url_Imagem" placeholder="Insira a URL da imagem" handleOnChange={handleChange}/>
+    <Input type="text" text="Descrião do produto: " name="descricao" placeholder="Insira da descricao do produto" handleOnChange={handleChange}/>
+    <Input type="price" text="Valor do produto" name="preco" placeholder="Insira o valor do produto" handleOnChange={handleChange}/>
     <BotaoSubmit text="Cadastrar Produto" handleSubmit={criandoProduto} />
-    </>
+   </>
+       
   )
 }
 
