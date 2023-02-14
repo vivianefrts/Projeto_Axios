@@ -1,7 +1,7 @@
 <h1 align="center"> Projeto_Axios</h1>
 
 ## :pencil: Descrição do Projeto: 
-O grupo resolveu aproveitar o tema do projeto individual que foi com o tema Salão de Beleza criando um site que proporciona serviços e exposições de produtos
+O grupo resolveu aproveitar o tema do projeto individual que foi Salão de Beleza criando um site que proporciona serviços e exposições de produtos
 com a nossa própria.
 O projeto também contém uma parte social, tendo em vista o programa dos Programadores Cariocas que é voltado para a formação de jovens vulneráveis e entre esses também é destinados em especial aos Trans aproveitamos para incluir essa pauta nesse trabalho.Como sabemos para mudança de documentos é burocrático e leva muito tempo a concluir sua finalidade e sem contar das condições que muitos não tem...
 
