@@ -2,16 +2,36 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 2rem;
-    /*background-image: linear-gradient(to right, rgb(254, 173, 223), rgb(255, 206, 255));*/
+    padding: 0.5rem 1rem;
     background-color: var(--corFundoEscuro);
+    color: aliceblue;
 }
 
-.navbar h2 a{
-    opacity: 1;
+.navbar img{
+    width: 130px;
 }
+
 
 .navbar ul{
     display: flex;
     gap: 1rem;
 }
+
+.navbar a{
+    font-size: 1.2em;
+}
+
+a {
+    box-shadow: inset 0 0 0 0 #FFBB33;
+    color: #FFBB33;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    border-radius: 3px;
+    border: none;
+  }
+  a:hover {
+    box-shadow: inset 200px 0 0 0 #FFBB33;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+  }

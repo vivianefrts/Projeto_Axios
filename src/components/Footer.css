@@ -1,8 +1,37 @@
 footer{
+        background-color: black;
+        color: #fff;;
+        padding: 3em;
+        text-align: center;
+}
+
+.social_list{
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1rem 2rem;
-        /*background-image: linear-gradient(to right, rgb(254, 173, 223), rgb(255, 206, 255));*/
-        background-color: var(--corFundoEscuro);
+        justify-content: center;
+        list-style-type: none;
+}
+
+.social_list li{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin: 0 1em;
+}
+
+.social_list li:hover{
+        color: #FFBB33;
+}
+
+.social_list svg{
+        font-size: 2em;
+        cursor: pointer;
+}
+
+.copy_right{
+        margin-top: 2em;
+}
+
+.copy_right span {
+        font-weight: bold;
+        color: #FFBB33;
 }
