@@ -5,8 +5,9 @@
 }
 .products-main-container{
     display: flex;
+    align-items: center;
     flex-direction: column;
-    width: 70vw;
+    width: 65vw;
     justify-content: center;
 }
 
