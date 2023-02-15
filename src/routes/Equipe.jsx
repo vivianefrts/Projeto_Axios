@@ -33,6 +33,7 @@ const Equipe = () => {
               <Tilt>
               <div className='team-card' key={team.id}>
                 <h2>{team.nome}</h2>
+                <img src={team.foto} />
                 <h2>{team.cargo}</h2>
               </div>
               </Tilt>
