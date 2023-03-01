@@ -8,6 +8,9 @@ import blogFetch from "../axios/config";
 
 import {useState, useEffect} from 'react';
 
+import { BsFillPencilFill } from "react-icons/bs";
+import { VscError } from "react-icons/vsc";
+
 
 const Produtos = () => {
   const [products, setProducts] = useState([])
@@ -39,7 +42,7 @@ const Produtos = () => {
                     <h4>Descrição: {products.descricao}</h4>
                     <p>Preço: R${products.preco},00</p>
                     <div className='verbos-container'>
-                  
+                      <BsFillPencilFill className='lapis'/> <VscError className='xzinho' />
                     </div>
                 </div>
                 </Tilt>

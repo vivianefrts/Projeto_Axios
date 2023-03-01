@@ -5,7 +5,7 @@ import styles from './BotaoSubmit.css'
 const BotaoSubmit = ({text}) => {
   return (
     <div>
-        <button className='botao_Submit'>{text}</button>
+        <button type='submit' value="Submit" className='botao_Submit'>{text}</button>
     </div>
   )
 }
