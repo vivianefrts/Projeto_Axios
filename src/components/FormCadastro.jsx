@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import Input from './Formulario/Input';
 import BotaoSubmit from './Formulario/BotaoSubmit';
-
+import "./FormCadastro.css"
 import axios from 'axios'
 
 
@@ -39,15 +39,13 @@ const FormCadastro = () => {
   }
 
   return (
-    <>
-    <Input type="text" text="Tipo de produto: " name="tipo" placeholder="Insira o tipo de produto" onChange = {handleChange} />
-    <Input type="text" text="URL da imagem: " name="url_Imagem" placeholder="Insira a URL da imagem" onChange = {handleChange}/>
-    <Input type="text" text="Descrião do produto: " name="descricao" placeholder="Insira da descricao do produto" onChange = {handleChange}/>
-    <Input type="price" text="Valor do produto" name="preco" placeholder="Insira o valor do produto" onChange = {handleChange}/>
-    <BotaoSubmit text="Cadastrar Produto" onSubmit = {enviandoCadastro}
-
-    />
-   </>
+    <form className='cadastro_formulario' onSubmit = {enviandoCadastro}>
+    <Input type="text" text="Tipo de produto: " name="tipo" placeholder="Insira o tipo de produto" handleOnChange = {handleChange} />
+    <Input type="text" text="URL da imagem: " name="url_Imagem" placeholder="Insira a URL da imagem" handleOnChange = {handleChange}/>
+    <Input type="text" text="Descrião do produto: " name="descricao" placeholder="Insira da descricao do produto" handleOnChange = {handleChange}/>
+    <Input type="price" text="Valor do produto" name="preco" placeholder="Insira o valor do produto" handleOnChange = {handleChange}/>
+    <BotaoSubmit text="Cadastrar Produto" />
+   </form>
        
   )
 }

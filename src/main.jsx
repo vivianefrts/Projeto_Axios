@@ -11,6 +11,7 @@ import TRANSformacao from './routes/TRANSformacao'
 import Servicos from './routes/Servicos'
 import CadastrarProduto from './routes/CadastrarProduto'
 import Produtos from './routes/Produtos'
+import EditProduto from './routes/EditProduto'
 
 import './index.css'
 
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/cadastrarProdutos",
         element: <CadastrarProduto />
+      },
+      {
+        path: "/editProduto/:id",
+        element: <EditProduto />
       }
     ]
   }
