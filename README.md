@@ -41,5 +41,10 @@ cadastrados.
 * Marcos  👨‍💼
 * Viviane :haircut:
 
-## :open_file_folder: Acesse o arquivo
+## Como executar o site: 
+### Baixar o arquivo completo do repositório 
+### Abrir no VSCODE 
+### Abrir um novo terminal selecionando a pasta com todos os arquivos desse repositório 
+### Executar o comando npm install 
+### Executar o comando npm run dev 
 
