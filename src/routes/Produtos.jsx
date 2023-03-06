@@ -33,6 +33,8 @@ const Produtos = () => {
   const deleteProduto = (id, e) =>{
     axios.delete(`https://fake-server-projetoindividual.onrender.com/produtos/${id}`)
     .then(res => console.log('Postado', res)).catch(err => console.log(err))
+    alert("Produto excluído!!")
+    location.reload();
   }
 
   return (

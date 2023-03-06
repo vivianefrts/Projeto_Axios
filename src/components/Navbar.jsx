@@ -18,19 +18,19 @@ const Navbar = () => {
         
         <ul>
             <li>
-                <Link to = {'/transformacao'}>TRANSformação</Link>
+                <Link to  = {'/transformacao'} className = "link-navbar">TRANSformação</Link>
             </li>
             <li>
-                <Link to  = {'/servicos'}>Serviços</Link>
+                <Link to  = {'/servicos'} className = "link-navbar">Serviços</Link>
             </li>
             <li>
-                <Link to = {'/produtos'}>Produtos</Link>
+                <Link to = {'/produtos'} className = "link-navbar">Produtos</Link>
             </li>
             <li>
-                <Link to = {'/cadastrarProdutos'}>Cadastrar Produtos</Link>
+                <Link to = {'/cadastrarProdutos'} className = "link-navbar">Cadastrar Produtos</Link>
             </li>
             <li>
-                <Link to = {'/equipe'}>Equipe</Link>
+                <Link to = {'/equipe'} className = "link-navbar">Equipe</Link>
             </li>
         </ul>
     </div>

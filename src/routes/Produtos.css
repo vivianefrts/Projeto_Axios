@@ -46,10 +46,18 @@
     font-size: 2em;
 }
 
-.lapis:hover{
-    color: green;
+.verbos-container a {
+    color: black;
+}
+
+.verbos-container a:hover {
+    color: rgb(0, 161, 153);
 }
 
 .xzinho:hover{
     color: rgb(158, 0, 0);
+}
+
+.lapis a{
+    color: black;
 }

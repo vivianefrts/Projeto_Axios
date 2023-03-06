@@ -7,6 +7,11 @@ import axios from 'axios'
 
 const FormCadastro = () => {
 
+ const atualizandoPagina = () =>
+  {
+    alert("Produto cadastrado com sucesso!")
+    location.reload();
+  }
   const [dados, setdados] = useState(
     {
       tipo: '',
@@ -36,6 +41,8 @@ const FormCadastro = () => {
   .catch(function (error) {
     console.log(error);
   });
+  alert("Produto cadastrado com sucesso!")
+  location.reload();
   }
 
   return (
@@ -44,7 +51,7 @@ const FormCadastro = () => {
     <Input type="text" text="URL da imagem: " name="url_Imagem" placeholder="Insira a URL da imagem" handleOnChange = {handleChange}/>
     <Input type="text" text="Descrião do produto: " name="descricao" placeholder="Insira da descricao do produto" handleOnChange = {handleChange}/>
     <Input type="price" text="Valor do produto" name="preco" placeholder="Insira o valor do produto" handleOnChange = {handleChange}/>
-    <BotaoSubmit text="Cadastrar Produto" />
+    <BotaoSubmit text="Cadastrar Produto" onSubmit = {atualizandoPagina}/>
    </form>
        
   )
